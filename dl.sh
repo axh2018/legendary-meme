@@ -1,4 +1,7 @@
 #!/bin/bash
+sudo apt-get install curl -y
+curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
+sudo apt-get install speedtest -y
 for ((i=0; i<=500; i++))
 do
         echo -e "\033[32m 第$i次下载 \033[0m"
