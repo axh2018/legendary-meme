@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install curl -y
+sudo apt-get install curl wget vim git -y
 curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
 sudo apt-get install speedtest -y
 for ((i=0; i<=500; i++))
