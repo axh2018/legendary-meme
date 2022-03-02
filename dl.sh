@@ -6,6 +6,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
 sudo apt-get install speedtest -y
+bash <(curl -sSL https://raw.githubusercontent.com/Netflixxp/NF/main/nf.sh)
 for ((i=0; i<=500; i++))
 do
         echo -e "\033[32m 第$i次下载 \033[0m"
