@@ -1,0 +1,3 @@
+alias update="apt update && apt upgrade -y && apt autoremove"
+# 使alias生效
+. .bashrc
