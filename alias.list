@@ -1,3 +1,8 @@
+# 系统更新
 alias update="apt update && apt upgrade -y && apt autoremove"
+# 安装软件
+alias install="apt install -y"
+# 卸载软件
+alias uninstall="apt remove -y"
 # 使alias生效
-. .bashrc
+# . .bashrc
